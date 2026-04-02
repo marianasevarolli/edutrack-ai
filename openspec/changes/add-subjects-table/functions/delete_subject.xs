@@ -3,9 +3,9 @@
 // Returns: Confirmation or error
 // Parameters:
 //   - subject_id: ID of the subject to delete (required)
-//   - user_id: ID of the requesting user (required for access control)
-
+//   - user_id: ID of the requesting user (required for access cootrol)
 // Validation: Required parameters
+
 if (!subject_id || !user_id) {
   return {
     success: false,
